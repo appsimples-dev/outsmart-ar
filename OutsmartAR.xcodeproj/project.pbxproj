@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B7A7B88F0CBB39DBF5DCF11 /* Pods_OutsmartARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF854045A453DCCD7D9310 /* Pods_OutsmartARUITests.framework */; };
+		701F78EB0221A53205B97B78 /* Pods_OutsmartARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7026F57C962D99F93071A6A7 /* Pods_OutsmartARTests.framework */; };
 		9FACB63322048134007E9392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB63222048134007E9392 /* AppDelegate.swift */; };
-		9FACB63522048134007E9392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB63422048134007E9392 /* ViewController.swift */; };
-		9FACB63822048134007E9392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FACB63622048134007E9392 /* Main.storyboard */; };
 		9FACB63A22048135007E9392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FACB63922048135007E9392 /* Assets.xcassets */; };
 		9FACB63D22048135007E9392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FACB63B22048135007E9392 /* LaunchScreen.storyboard */; };
 		9FACB64822048135007E9392 /* OutsmartARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB64722048135007E9392 /* OutsmartARTests.swift */; };
 		9FACB65322048135007E9392 /* OutsmartARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB65222048135007E9392 /* OutsmartARUITests.swift */; };
+		9FACB662220481AD007E9392 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB660220481AD007E9392 /* ARViewController.swift */; };
+		9FACB663220481AD007E9392 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FACB661220481AD007E9392 /* ARViewController.xib */; };
+		9FACB6A3220496A5007E9392 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB6A2220496A5007E9392 /* InformationView.swift */; };
+		9FACB6A5220496B3007E9392 /* InformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FACB6A4220496B3007E9392 /* InformationView.xib */; };
+		9FACB6AA2204C3CD007E9392 /* UIImage+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB6A92204C3CD007E9392 /* UIImage+Rotate.swift */; };
+		B545AC6FE0D4286BB4C1728A /* Pods_OutsmartAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABE10DF62B4E39E19102799 /* Pods_OutsmartAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BBF854045A453DCCD7D9310 /* Pods_OutsmartARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutsmartARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC7CE01787ADF795D6233B8 /* Pods-OutsmartARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutsmartARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OutsmartARTests/Pods-OutsmartARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FE68C548CB86C2AACB93F43 /* Pods-OutsmartAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutsmartAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-OutsmartAR/Pods-OutsmartAR.release.xcconfig"; sourceTree = "<group>"; };
+		4959EEA6EAA12D1F5CCF5793 /* Pods-OutsmartARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutsmartARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OutsmartARUITests/Pods-OutsmartARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7026F57C962D99F93071A6A7 /* Pods_OutsmartARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutsmartARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABE10DF62B4E39E19102799 /* Pods_OutsmartAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutsmartAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FACB62F22048134007E9392 /* OutsmartAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutsmartAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FACB63222048134007E9392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FACB63422048134007E9392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9FACB63722048134007E9392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FACB63922048135007E9392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FACB63C22048135007E9392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FACB63E22048135007E9392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		9FACB64E22048135007E9392 /* OutsmartARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutsmartARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FACB65222048135007E9392 /* OutsmartARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsmartARUITests.swift; sourceTree = "<group>"; };
 		9FACB65422048135007E9392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FACB660220481AD007E9392 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		9FACB661220481AD007E9392 /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
+		9FACB6A2220496A5007E9392 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		9FACB6A4220496B3007E9392 /* InformationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationView.xib; sourceTree = "<group>"; };
+		9FACB6A92204C3CD007E9392 /* UIImage+Rotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotate.swift"; sourceTree = "<group>"; };
+		B258DCF0C32CCC99BC0A241E /* Pods-OutsmartARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutsmartARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OutsmartARTests/Pods-OutsmartARTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3F93B79B0FF2AE2EBC43827 /* Pods-OutsmartAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutsmartAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OutsmartAR/Pods-OutsmartAR.debug.xcconfig"; sourceTree = "<group>"; };
+		EDBA2653CFF3E8F0102E8BE0 /* Pods-OutsmartARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutsmartARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OutsmartARUITests/Pods-OutsmartARUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B545AC6FE0D4286BB4C1728A /* Pods_OutsmartAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701F78EB0221A53205B97B78 /* Pods_OutsmartARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7A7B88F0CBB39DBF5DCF11 /* Pods_OutsmartARUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		983650595249DC16CE86F822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABE10DF62B4E39E19102799 /* Pods_OutsmartAR.framework */,
+				7026F57C962D99F93071A6A7 /* Pods_OutsmartARTests.framework */,
+				1BBF854045A453DCCD7D9310 /* Pods_OutsmartARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9FACB62622048134007E9392 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				9FACB64622048135007E9392 /* OutsmartARTests */,
 				9FACB65122048135007E9392 /* OutsmartARUITests */,
 				9FACB63022048134007E9392 /* Products */,
+				D1195FAEFD68194F699A12F6 /* Pods */,
+				983650595249DC16CE86F822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +130,10 @@
 		9FACB63122048134007E9392 /* OutsmartAR */ = {
 			isa = PBXGroup;
 			children = (
+				9FACB6A82204C3BD007E9392 /* Helpers */,
+				9FACB6A722049716007E9392 /* Containers */,
+				9FACB6A622049701007E9392 /* Components */,
 				9FACB63222048134007E9392 /* AppDelegate.swift */,
-				9FACB63422048134007E9392 /* ViewController.swift */,
-				9FACB63622048134007E9392 /* Main.storyboard */,
 				9FACB63922048135007E9392 /* Assets.xcassets */,
 				9FACB63B22048135007E9392 /* LaunchScreen.storyboard */,
 				9FACB63E22048135007E9392 /* Info.plist */,
@@ -125,6 +159,45 @@
 			path = OutsmartARUITests;
 			sourceTree = "<group>";
 		};
+		9FACB6A622049701007E9392 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9FACB6A2220496A5007E9392 /* InformationView.swift */,
+				9FACB6A4220496B3007E9392 /* InformationView.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9FACB6A722049716007E9392 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				9FACB660220481AD007E9392 /* ARViewController.swift */,
+				9FACB661220481AD007E9392 /* ARViewController.xib */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		9FACB6A82204C3BD007E9392 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9FACB6A92204C3CD007E9392 /* UIImage+Rotate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D1195FAEFD68194F699A12F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3F93B79B0FF2AE2EBC43827 /* Pods-OutsmartAR.debug.xcconfig */,
+				2FE68C548CB86C2AACB93F43 /* Pods-OutsmartAR.release.xcconfig */,
+				2CC7CE01787ADF795D6233B8 /* Pods-OutsmartARTests.debug.xcconfig */,
+				B258DCF0C32CCC99BC0A241E /* Pods-OutsmartARTests.release.xcconfig */,
+				EDBA2653CFF3E8F0102E8BE0 /* Pods-OutsmartARUITests.debug.xcconfig */,
+				4959EEA6EAA12D1F5CCF5793 /* Pods-OutsmartARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FACB65722048135007E9392 /* Build configuration list for PBXNativeTarget "OutsmartAR" */;
 			buildPhases = (
+				671C9D4DA62DE65A10C83AFB /* [CP] Check Pods Manifest.lock */,
 				9FACB62B22048134007E9392 /* Sources */,
 				9FACB62C22048134007E9392 /* Frameworks */,
 				9FACB62D22048134007E9392 /* Resources */,
@@ -149,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FACB65A22048135007E9392 /* Build configuration list for PBXNativeTarget "OutsmartARTests" */;
 			buildPhases = (
+				738F54CAED56838C03E750F7 /* [CP] Check Pods Manifest.lock */,
 				9FACB63F22048135007E9392 /* Sources */,
 				9FACB64022048135007E9392 /* Frameworks */,
 				9FACB64122048135007E9392 /* Resources */,
@@ -167,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FACB65D22048135007E9392 /* Build configuration list for PBXNativeTarget "OutsmartARUITests" */;
 			buildPhases = (
+				5B93A2C147BB04DFB00EF4DC /* [CP] Check Pods Manifest.lock */,
 				9FACB64A22048135007E9392 /* Sources */,
 				9FACB64B22048135007E9392 /* Frameworks */,
 				9FACB64C22048135007E9392 /* Resources */,
@@ -230,8 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FACB63D22048135007E9392 /* LaunchScreen.storyboard in Resources */,
+				9FACB6A5220496B3007E9392 /* InformationView.xib in Resources */,
 				9FACB63A22048135007E9392 /* Assets.xcassets in Resources */,
-				9FACB63822048134007E9392 /* Main.storyboard in Resources */,
+				9FACB663220481AD007E9392 /* ARViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +328,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B93A2C147BB04DFB00EF4DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OutsmartARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671C9D4DA62DE65A10C83AFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OutsmartAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738F54CAED56838C03E750F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OutsmartARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FACB62B22048134007E9392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FACB63522048134007E9392 /* ViewController.swift in Sources */,
+				9FACB6A3220496A5007E9392 /* InformationView.swift in Sources */,
+				9FACB662220481AD007E9392 /* ARViewController.swift in Sources */,
+				9FACB6AA2204C3CD007E9392 /* UIImage+Rotate.swift in Sources */,
 				9FACB63322048134007E9392 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9FACB63622048134007E9392 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FACB63722048134007E9392 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9FACB63B22048135007E9392 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -430,11 +570,13 @@
 		};
 		9FACB65822048135007E9392 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F93B79B0FF2AE2EBC43827 /* Pods-OutsmartAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7948KYSLZ;
 				INFOPLIST_FILE = OutsmartAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +590,13 @@
 		};
 		9FACB65922048135007E9392 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE68C548CB86C2AACB93F43 /* Pods-OutsmartAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7948KYSLZ;
 				INFOPLIST_FILE = OutsmartAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +610,7 @@
 		};
 		9FACB65B22048135007E9392 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC7CE01787ADF795D6233B8 /* Pods-OutsmartARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +632,7 @@
 		};
 		9FACB65C22048135007E9392 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B258DCF0C32CCC99BC0A241E /* Pods-OutsmartARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +654,7 @@
 		};
 		9FACB65E22048135007E9392 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBA2653CFF3E8F0102E8BE0 /* Pods-OutsmartARUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +675,7 @@
 		};
 		9FACB65F22048135007E9392 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4959EEA6EAA12D1F5CCF5793 /* Pods-OutsmartARUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

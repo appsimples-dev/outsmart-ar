@@ -15,8 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupFirstViewController()
         return true
+    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .portrait
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -41,6 +45,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    private func setupFirstViewController() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let arViewController = ARViewController(nibName: "ARViewController", bundle: nil)
+        let nav = UINavigationController(rootViewController: arViewController)
+        nav.isNavigationBarHidden = true
+        window?.rootViewController = nav
+        window?.makeKeyAndVisible()
+    }
 }
 
